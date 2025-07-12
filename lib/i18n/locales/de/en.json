@@ -1,0 +1,192 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "close": "Close",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "language": "Language",
+    "services": "Services",
+    "pricing": "Pricing"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Premium Workspaces for Modern Professionals",
+      "subtitle": "Find Your Perfect Work Environment at SUKOON",
+      "description": "Join a community of ambitious freelancers and students in beautifully designed workspaces equipped with everything you need to succeed.",
+      "cta": "Book Your Space",
+      "ctaSecondary": "Take a Tour"
+    },
+    "slide2": {
+      "title": "Flexible Solutions for Every Need",
+      "subtitle": "From Hot Desks to Private Offices",
+      "description": "Whether you need a quiet corner for focused work or a collaborative space for team projects, SUKOON has the perfect solution for you.",
+      "cta": "Explore Plans",
+      "ctaSecondary": "Learn More"
+    },
+    "slide3": {
+      "title": "Community-Driven Innovation",
+      "subtitle": "Network, Collaborate, and Grow Together",
+      "description": "Connect with like-minded professionals, attend exclusive events, and be part of a thriving community that supports your success.",
+      "cta": "Join Community",
+      "ctaSecondary": "View Events"
+    }
+  },
+  "sections": {
+    "haveItYourWay": {
+      "title": "Have It Your Way",
+      "subtitle": "Customize your workspace experience with flexible options designed around your unique needs and working style.",
+      "features": [
+        {
+          "title": "Flexible Hours",
+          "description": "Access your workspace 24/7 with our flexible membership plans. Work when inspiration strikes."
+        },
+        {
+          "title": "Community Events",
+          "description": "Join networking events, workshops, and social gatherings to expand your professional network."
+        },
+        {
+          "title": "Premium Amenities",
+          "description": "Enjoy high-speed internet, premium coffee, printing services, and modern meeting rooms."
+        }
+      ]
+    },
+    "spacesForOccasion": {
+      "title": "Spaces for Any Occasion",
+      "subtitle": "From quiet focus areas to collaborative meeting rooms, find the perfect space for every type of work.",
+      "spaces": [
+        {
+          "title": "Open Workspace",
+          "description": "Dynamic open areas perfect for collaboration and networking. Enjoy the energy of a bustling workspace while maintaining your productivity.",
+          "features": [
+            "Hot desks available daily",
+            "High-speed WiFi throughout",
+            "Natural lighting and ergonomic furniture"
+          ],
+          "cta": "Book Open Desk"
+        },
+        {
+          "title": "Private Offices",
+          "description": "Dedicated private spaces for teams and individuals who need focused, uninterrupted work environments.",
+          "features": ["Fully furnished and equipped", "24/7 access with key card", "Customizable layout and branding"],
+          "cta": "View Private Offices"
+        },
+        {
+          "title": "Meeting Rooms",
+          "description": "Professional meeting spaces equipped with the latest technology for presentations, video calls, and team collaborations.",
+          "features": [
+            "4K displays and video conferencing",
+            "Whiteboard and presentation tools",
+            "Soundproof for privacy"
+          ],
+          "cta": "Reserve Meeting Room"
+        }
+      ]
+    },
+    "facilities": {
+      "title": "ENJOY ALL THE FACILITIES",
+      "subtitle": "Everything you need to work productively and comfortably, all included in your membership.",
+      "items": [
+        {
+          "title": "High-Speed WiFi",
+          "description": "Ultra-fast internet with 99.9% uptime guarantee"
+        },
+        {
+          "title": "Premium Coffee",
+          "description": "Unlimited specialty coffee and refreshments"
+        },
+        {
+          "title": "Free Parking",
+          "description": "Complimentary parking for all members"
+        },
+        {
+          "title": "24/7 Security",
+          "description": "Round-the-clock security and access control"
+        },
+        {
+          "title": "Print & Scan",
+          "description": "Professional printing and scanning services"
+        },
+        {
+          "title": "Phone Booths",
+          "description": "Private phone booths for confidential calls"
+        },
+        {
+          "title": "Global Access",
+          "description": "Access to partner locations worldwide"
+        },
+        {
+          "title": "Quiet Zones",
+          "description": "Dedicated quiet areas for focused work"
+        }
+      ],
+      "additional": [
+        {
+          "title": "Event Spaces",
+          "description": "Host workshops, presentations, and networking events in our flexible event spaces."
+        },
+        {
+          "title": "Community Lounge",
+          "description": "Relax and network in our comfortable community lounge with games and entertainment."
+        },
+        {
+          "title": "Concierge Service",
+          "description": "Personal assistance with mail handling, package delivery, and administrative support."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to join our community? Contact us today to schedule a tour or learn more about our membership options.",
+    "form": {
+      "title": "Send us a message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your workspace needs...",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "123 Business District, Downtown City, DC 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "hello@sukoon.com",
+      "hours": "24/7 Access for Members"
+    },
+    "location": {
+      "title": "Find Us",
+      "description": "Located in the heart of the business district with easy access to public transportation, restaurants, and amenities.",
+      "features": ["Metro Station - 2 min walk", "Parking Available", "Restaurants Nearby"]
+    }
+  },
+  "footer": {
+    "description": "Premium coworking spaces designed for modern professionals, freelancers, and students.",
+    "services": {
+      "title": "Services",
+      "items": ["Hot Desks", "Private Offices", "Meeting Rooms", "Event Spaces", "Virtual Offices"]
+    },
+    "company": {
+      "title": "Company",
+      "items": ["About Us", "Careers", "Press", "Blog", "Partners"]
+    },
+    "support": {
+      "title": "Support",
+      "items": ["Help Center", "Contact Us", "Privacy Policy", "Terms of Service", "Cookie Policy"]
+    },
+    "copyright": "All rights reserved."
+  }
+}
