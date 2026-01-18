@@ -5,7 +5,11 @@ import { ChevronDown, Globe } from "lucide-react"
 import { useI18n } from "@/lib/i18n"
 import { localeConfig, type Locale } from "@/lib/i18n/config"
 
-export default function LanguageSwitcher() {
+interface LanguageSwitcherProps {
+  isScrolled?: boolean
+}
+
+export default function LanguageSwitcher({ isScrolled = false }: LanguageSwitcherProps) {
   const { locale, setLocale, t, dir } = useI18n()
   const [isOpen, setIsOpen] = useState(false)
 
@@ -18,7 +22,11 @@ export default function LanguageSwitcher() {
     <div className="relative" dir={dir}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 rtl:space-x-reverse px-3 py-2 text-sm font-medium text-white/90 hover:text-white transition-colors rounded-lg hover:bg-white/10"
+        className={`flex items-center space-x-2 rtl:space-x-reverse px-3 py-2 text-sm font-medium transition-colors rounded-lg ${
+          isScrolled 
+            ? "text-gray-700 hover:text-gray-900 hover:bg-gray-100" 
+            : "text-white/90 hover:text-white hover:bg-white/10"
+        }`}
         aria-label={t("navigation.language")}
         aria-expanded={isOpen}
         aria-haspopup="true"

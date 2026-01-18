@@ -5,17 +5,16 @@ import { motion, useInView } from "framer-motion";
 import { Sparkles, ArrowRight } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function OfferSection() {
   const { t, dir } = useI18n();
+  const router = useRouter();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const scrollToContact = () => {
-    const element = document.querySelector("#contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+  const navigateToCommunity = () => {
+    router.push("/community");
   };
 
   return (
@@ -38,7 +37,7 @@ export default function OfferSection() {
       </div>
 
       {/* Floating Elements */}
-      <motion.div
+      {/* <motion.div
         animate={{ rotate: 360 }}
         transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
         className="absolute top-10 right-10 w-20 h-20 border-2 border-white/20 rounded-full"
@@ -47,7 +46,7 @@ export default function OfferSection() {
         animate={{ y: [0, -20, 0] }}
         transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
         className="absolute bottom-10 left-10 w-16 h-16 bg-white/10 rounded-lg"
-      />
+      /> */}
 
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
@@ -77,6 +76,7 @@ export default function OfferSection() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight"
+            style={{ lineHeight: "1.4" }} 
           >
             {t("offer.title")}
           </motion.h2>
@@ -96,7 +96,7 @@ export default function OfferSection() {
             transition={{ duration: 0.6, delay: 0.7 }}
           >
             <Button
-              onClick={scrollToContact}
+              onClick={navigateToCommunity}
               size="lg"
               className="bg-white text-primary-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >

@@ -57,6 +57,9 @@ export default function FacilitiesSection() {
                 <p className="text-gray-600 text-sm">
                   {t(`sections.facilities.items.${index}.description`)}
                 </p>
+                <p className="text-gray-600 text-xs">
+                  {t(`sections.facilities.items.${index}.span`)}
+                </p>
               </div>
             )
           })}

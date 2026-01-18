@@ -22,7 +22,7 @@ export default function ClientHomePage() {
       setIsScrolled(window.scrollY > 50)
 
       // Update active section based on scroll position
-      const sections = ["home", "services", "about", "contact"]
+      const sections = ["home", "about", "contact"]
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -63,13 +63,13 @@ export default function ClientHomePage() {
         <HeroSection />
 
         {/* Services Section */}
-        <ServicesSection />
+        {/* <ServicesSection /> */}
+        
+        {/* Facilities Section */}
+        <FacilitiesSection />
 
         {/* Offer Section */}
         <OfferSection />
-
-        {/* Facilities Section */}
-        <FacilitiesSection />
 
         {/* Contact Section */}
         <ContactSection />

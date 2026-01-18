@@ -27,7 +27,7 @@ interface HeroSlide {
 const heroSlides: HeroSlide[] = [
   {
     id: 1,
-    image: "/1.png",
+    image: "/1.jpg",
     titleKey: "hero.slide1.title",
     subtitleKey: "hero.slide1.subtitle",
     descriptionKey: "hero.slide1.description",
@@ -36,7 +36,7 @@ const heroSlides: HeroSlide[] = [
   },
   {
     id: 2,
-    image: "/2.png",
+    image: "/2.jpg",
     titleKey: "hero.slide2.title",
     subtitleKey: "hero.slide2.subtitle",
     descriptionKey: "hero.slide2.description",

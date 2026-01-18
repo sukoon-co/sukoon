@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: '/fav.ico',
+    icon: '/fav.png',
   },
   generator: 'v0.dev'
 }
@@ -61,6 +61,19 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="ar" dir="rtl" suppressHydrationWarning>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VE1VJKMWM"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-4VE1VJKMWM');
+            `,
+          }}
+        />
+      </head>
       <body className={`${inter.variable} ${almarai.variable} font-arabic antialiased`} suppressHydrationWarning>
         <I18nProvider>{children}</I18nProvider>
         <Toaster />

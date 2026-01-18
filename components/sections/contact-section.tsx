@@ -107,7 +107,7 @@ export default function ContactSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{t("contact.title")}</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t("contact.subtitle")}</p>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t("contact.form.notesPlaceholder")}</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -173,7 +173,7 @@ export default function ContactSection() {
                   />
                 </div>
 
-                <div>
+                {/* <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     {t("contact.form.services")}
                   </label>
@@ -223,7 +223,7 @@ export default function ContactSection() {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -257,7 +257,7 @@ export default function ContactSection() {
             </div>
 
             {/* Contact Info */}
-            {/* <div className="space-y-6">
+            <div className="space-y-6">
               <h3 className="text-2xl font-bold text-gray-900">
                 {t("contact.info.title")}
               </h3>
@@ -277,7 +277,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">{t("contact.info.phoneLabel")}</p>
-                    <p className="text-gray-600">{t("contact.info.phone")}</p>
+                    <p className="text-gray-600" style={{ direction: 'ltr' }}>{t("contact.info.phone")}</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4 rtl:space-x-reverse">
@@ -299,17 +299,17 @@ export default function ContactSection() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* Map */}
           <div className="space-y-6">
-            {/* <h3 className="text-2xl font-bold text-gray-900">
+            <h3 className="text-2xl font-bold text-gray-900">
               {t("contact.location.title")}
             </h3>
             <div className="relative h-96 bg-gray-200 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878459418!3d40.74844097932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sus!4v1635959687750!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831.5836533870474!2d36.29440656963729!3d33.518684816422116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e700334aaa2d%3A0x6145dc484737d5f4!2sSukoon%20Business%20Cafe!5e0!3m2!1sen!2s!4v1768724822345!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -333,7 +333,7 @@ export default function ContactSection() {
                   </span>
                 ))}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

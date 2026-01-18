@@ -10,13 +10,53 @@ import Image from "next/image";
 const heroSlides = [
   {
     id: 1,
-    image: "/hero/1.png",
+    image: "/hero/1.jpg",
     alt: "Modern coworking space in Damascus",
   },
   {
     id: 2,
-    image: "/hero/2.png",
-    alt: "Freelancers working in SUKOON",
+    image: "/hero/2.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 3,
+    image: "/hero/3.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 4,
+    image: "/hero/4.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 5,
+    image: "/hero/5.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 6,
+    image: "/hero/6.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 7,
+    image: "/hero/7.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 8,
+    image: "/hero/8.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 9,
+    image: "/hero/9.jpg",
+    alt: "Modern coworking space in Damascus",
+  },
+  {
+    id: 10,
+    image: "/hero/10.jpg",
+    alt: "Modern coworking space in Damascus",
   },
 ];
 
@@ -111,14 +151,14 @@ export default function HeroSection() {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="space-y-8 text-white"
             >
-              <motion.h2
+              {/* <motion.h2
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight"
               >
                 {t("hero.soon")}
-              </motion.h2>
+              </motion.h2> */}
               
               <motion.h1
                 initial={{ opacity: 0, y: 30 }}
@@ -139,7 +179,7 @@ export default function HeroSection() {
                 {t("hero.subtitle")}
               </motion.p>
 
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
@@ -148,12 +188,12 @@ export default function HeroSection() {
                 <Button
                   onClick={scrollToContact}
                   size="lg"
-                  className="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                  className="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 whitespace-normal text-center leading-tight min-h-[60px] flex items-center justify-center"
                 >
                   {t("hero.cta")}
                 </Button>
 
-              </motion.div>
+              </motion.div> */}
             </motion.div>
           </div>
         </div>
